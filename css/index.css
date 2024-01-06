@@ -54,6 +54,13 @@ a{
  .abc{
         display: none;
     }
+    .btnsign button{
+    
+color:white;
+padding:10px 20px;
+margin: none;
+}
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

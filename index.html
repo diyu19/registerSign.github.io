@@ -36,67 +36,63 @@
             <form>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row mb-6">
-                    <h1> Sign Up!</h1> <span class="btn btnsign"><button class="signbtn"><a href="index.html">Sign
-                                Up</a></button><button class="btn loginbtn"><a
-                                href="login.html">Login</a></button></span>
+                    <h1> Sign Up!</h1> <span class=" btnsign"><button class="signbtn"><a href="index.html">Sign
+                                Up</a></button><button class="loginbtn"><a href="login.html">Login</a></button></span>
                     <br>
-                    <div class="col">
-
-                        <div data-mdb-input-init class="form-outline">
-                            <input type="text" id="form3Example1" class="form-control" />
-                            <label class="form-label" for="form3Example1">First name</label>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                        </div>
+                        <div class="col">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
                         </div>
                     </div>
-                    <div class="col">
-                        <div data-mdb-input-init class="form-outline">
-                            <input type="text" id="form3Example2" class="form-control" />
-                            <label class="form-label" for="form3Example2">Last name</label>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                    </div>
+
+                    <!-- Password and Confirm Password -->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="col">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                placeholder="Confirm your password">
                         </div>
                     </div>
-                </div>
-
-                <!-- Email input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" id="form3Example3" class="form-control" />
-                    <label class="form-label" for="form3Example3">Email address</label>
-                </div>
-
-                <!-- Password input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" id="form3Example4" class="form-control" />
-                    <label class="form-label" for="form3Example4">Password</label>
-                </div>
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" id="form3Example4" class="form-control" />
-                    <label class="form-label" for="form3Example4">Confirm Password</label>
-                </div>
 
 
 
+                    <!-- Submit button -->
+                    <button data-mdb-ripple-init type="button" class=" buttonbtn btn-block mb-4" onclick="signup()">Sign
+                        Up!</button>
 
-                <!-- Submit button -->
-                <button data-mdb-ripple-init type="button" class="btn buttonbtn btn-block mb-4" onclick="signup()">Sign
-                    Up!</button>
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                        <p>or <br> sign up with:</p>
+                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
 
-                <!-- Register buttons -->
-                <div class="text-center">
-                    <p>or <br> sign up with:</p>
-                    <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                    </button>
+                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                            <i class="fab fa-google"></i>
+                        </button>
 
-                    <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                    </button>
+                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </button>
 
-                    <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                    </button>
-
-                    <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                    </button>
-                </div>
+                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
             </form>
 
         </div>
