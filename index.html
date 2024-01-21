@@ -1,115 +1,195 @@
-<!--  Divya's Code -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <nav>
+        <div class="nav-bar">
+            <!-- <img src="https://yt3.googleusercontent.com/nykl_xTQUNV-N_iepqonb0KzhuSySSCNBZ5-kNO6oB5sIP8dcNg8wL0J4AFnBpecpEPgkDiTdEg=s900-c-k-c0x00ffffff-no-rj"
+                width="100" height="100"> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="https://telphatech.com/wp-content/uploads/2023/10/cropped-Telphatech-1200.png" width="120"
-                    height="60" alt="Logo">
-            </a>
+            <h1>Home</h1>
+            <h1>Blog</h1>
+            <h1>Testimonial</h1>
+            <h1>Gallary</h1>
+
+
         </div>
     </nav>
-    <div class="form-atribute  container">
-        <div class="row abc">
-            <img src="https://snapdoc.vnress.in/assets/images/login-side-img.png"><br>
 
-        </div>
-        <div class="row form-arg ">
-            <form>
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-6">
-                    <h1> Sign Up!</h1> <span class=" btnsign"><button class="signbtn"><a href="index.html">Sign
-                                Up</a></button><button class="loginbtn"><a href="login.html">Login</a></button></span>
-                    <br>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
-                        </div>
-                        <div class="col">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
-                        </div>
-                    </div>
+    <div class="slideshow-container">
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email address">
-                    </div>
+        <div class="mySlides fade">
+            <div class="slidershow">
 
-                    <!-- Password and Confirm Password -->
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
-                        </div>
-                        <div class="col">
-                            <label for="confirmPassword" class="form-label">Confirm Password</label>
-                            <input type="password" class="form-control" id="confirmPassword"
-                                placeholder="Confirm your password">
-                        </div>
-                    </div>
-
-
-
-                    <!-- Submit button -->
-                    <button data-mdb-ripple-init type="button" class=" buttonbtn btn-block mb-4" onclick="signup()">Sign
-                        Up!</button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                        <p>or <br> sign up with:</p>
-                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-facebook-f"></i>
-                        </button>
-
-                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-google"></i>
-                        </button>
-
-                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-twitter"></i>
-                        </button>
-
-                        <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-github"></i>
-                        </button>
-                    </div>
-            </form>
-
+                <img src="https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3">
+                <p align="center" class="side-text">
+                    “The universe is not only stranger than we imagine, it is stranger than we can imagine.” </p>
+            </div>
         </div>
 
+        <div class="mySlides fade">
+            <div class="slidershow">
+
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+                <p align="center" class="side-text">
+                    “The universe is not only stranger than we imagine, it is stranger than we can imagine.”</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="slidershow">
+                <img src="https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3">
+                <p align="center" class="side-text">
+                    “The universe is not only stranger than we imagine, it is stranger than we can imagine.”</p>
+            </div>
+        </div>
 
     </div>
+    <br>
 
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="blog">
+
+
+        <div class="blog-bgimg">
+            <div class="blog-content">
+                <h1 align="center"><span>Message to Humanity</span></h1>
+                <p align="center"><span> Space is a three-dimensional continuum containing positions and directions. In
+                        classical
+                        physics,
+                        physical space is
+                        often conceived in three linear dimensions. Modern physicists usually consider it, with time, to
+                        be
+                        part
+                        of a boundless
+                        four-dimensional continuum known as spacetime.<br>
+                    </span> <br><br>
+                    <button> <a href="#">Read More...</a></button>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <h1 align="center">Blogs</h1>
+    <div class="scroll-card">
+
+        <div class="scroll-img">
+            <br><br>
+
+            <img src="https://as2.ftcdn.net/v2/jpg/00/88/53/89/1000_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg">
+            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                explain the
+                situation
+                you're addressing. “...</p>
+            <div class="card-bottom">
+                <p1>John Khan <br></p1><br>
+                <p2>Parent</p2>
+            </div>
+        </div>
+        <div class="scroll-img">
+            <br><br>
+
+            <img src="https://as2.ftcdn.net/v2/jpg/00/88/53/89/1000_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg">
+            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                explain the
+                situation
+                you're addressing. “...</p>
+            <div class="card-bottom">
+                <p1>John Khan <br></p1><br>
+                <p2>Parent</p2>
+            </div>
+        </div>
+        <div class="scroll-img">
+            <br><br>
+
+            <img src="https://as2.ftcdn.net/v2/jpg/00/88/53/89/1000_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg">
+            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                explain the
+                situation
+                you're addressing. “...</p>
+            <div class="card-bottom">
+                <p1>John Khan <br></p1><br>
+                <p2>Parent</p2>
+            </div>
+        </div>
+        <div class="scroll-img">
+            <br><br>
+
+            <img src="https://as2.ftcdn.net/v2/jpg/00/88/53/89/1000_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg">
+            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                explain the
+                situation
+                you're addressing. “...</p>
+            <div class="card-bottom">
+                <p1>John Khan <br></p1><br>
+                <p2>Parent</p2>
+            </div>
+        </div>
+
+    </div>
+    <div class="norm-text">
+        Scientific research in space can be divided into five general areas: (1) solar and space physics, including
+        study of the
+        magnetic and electromagnetic fields in space and the various energetic particles also present, with particular
+        attention
+        to their interactions with Earth, (2) exploration of the planets, moons, ...
+    </div>
+    <div class="cardblog">
+        <div class="cardblog-body">
+
+            <div class="cardblog-img">
+
+                <img
+                    src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>Hello This is text</p>
+                <h1>This is nice text</h1>
+                <h2>This is very nice Text</h2>
+                <button><a href="">Read More</a></button>
+            </div>
+            <div class="cardblog-img">
+                <img
+                    src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>Hello This is text</p>
+                <h1>This is nice text</h1>
+                <h2>This is very nice Text</h2>
+                <button><a href="">Read More</a></button>
+            </div>
+            <div class="cardblog-img">
+                <img
+                    src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>Hello This is text</p>
+                <h1>This is nice text</h1>
+                <h2>This is very nice Text</h2>
+                <button><a href="">Read More</a></button>
+            </div>
+
+            <div class="cardblog-img">
+                <img
+                    src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>Hello This is text</p>
+                <h1>This is nice text</h1>
+                <h2>This is very nice Text</h2>
+                <button><a href="">Read More</a></button>
+            </div>
+
+
+
+        </div>
+
+    </div>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+<script src="index.js"></script>
 
 </html>
-<!--  Divya's Code -->
-!
