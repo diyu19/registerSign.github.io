@@ -101,7 +101,7 @@ img {vertical-align: middle;}
 /* blogblog-bgimgblog-content */
 .blog{
 
- background-image: url("https://img.freepik.com/free-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_188544-9655.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705708800&semt=sph");
+ background-image: url('');;
  background-repeat: no-repeat;
  background-size: cover;
 
@@ -300,15 +300,15 @@ width:320px;
   color:white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   background-color: rgba(128, 128, 128, 0.601);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .card-title{
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
 
 }
@@ -319,15 +319,17 @@ width:320px;
 
 }
 .card-body button{
-  color:blue;
-  width:120px;
+  color:black;
+ width:10rem;
+ margin-bottom:3rem;
+   margin-left:2rem;
   background-color: white;
-  padding:10px 20px;
-  border-radius: 5px;
+  padding:10px 10px;
+ 
   text-transform: capitalize;
   border:none;
   outline:none;
-  font-weight: 500;
+ 
   cursor:pointer;
 
 }
@@ -398,7 +400,7 @@ width:320px;
 .cardabc >.row > .description{
   display:flex;
   justify-content: center;
- align-items: center;
+
   flex-direction: column;
   overflow: hidden;
   height: 80px;
@@ -428,24 +430,59 @@ transform:translateY(0) !important;
 
 } 
 .cardabc[for="c1"]{
-  background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg") ;
+  background-image:url("") ;
 
 
 }
 .cardabc[for="c2"]{
-  background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg") ;
+  background-image:url("") ;
   
 
 }
 .cardabc[for="c3"]{
-  background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg") ;
+  background-image:url("") ;
   
 
 }
 .cardabc[for="c4"]{
-  background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg") ;
+  background-image:url("") ;
   
 
+}
+.contact-us{
+  background-color: black;
+   display: flex;
+    flex-direction: column;
+  
+}
+
+.fevicons-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:3rem;
+}
+.fevicons-contact .btn{
+  margin:2rem;
+  font-size: 2rem;
+  border-radius: 100%;
+  padding:0.6rem;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.navbar-contact{
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+ 
+}
+.navbar-contact h1{
+   margin:2rem;
+   font-size: 1.5rem;
 }
 
 @keyframes primary {
@@ -509,4 +546,20 @@ transform:translateY(0) !important;
     height: auto; 
     margin-top: 0; 
   }
-}
+  .navbar-contact,.fevicons-contact{
+    flex-direction: column;
+   
+  }
+  .fevicons-contact .btn{
+    margin:0.8rem;
+  }
+
+  .contact-us{
+    display: flex;
+    flex-direction: row;
+  }
+  .card-container{
+    display: flex;
+    flex-direction: column;
+  }
+} 
