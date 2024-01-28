@@ -634,4 +634,8 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+   .norm-text{
+   
+    height: 100%;
+  }
 }
