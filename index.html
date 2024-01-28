@@ -15,17 +15,18 @@
 
 <body>
     <nav>
-        <div class="nav-bar">
+        <div class="nav-bar" id="sidebar">
 
-            <h1>Home</h1>
-            <h1>Blog</h1>
-            <h1>Testimonial</h1>
-            <h1>Gallary</h1>
-            <h1>About Us</h1>
-            <h1>Contact Us</h1>
+            <h1><a href="#">Home</a></h1>
+            <h1><a href="#slider1">Blog</a></h1>
+            <h1><a href="#">Testimonial</a></h1>
+            <h1><a href="#">Gallary</a></h1>
+            <h1><a href="#">About Us</a></h1>
+            <h1><a href="#">Contact Us</a></h1>
 
 
         </div>
+        <button class="toggle-btn" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
     </nav>
 
     <div class="slideshow-container">
@@ -81,77 +82,86 @@
                         of a boundless
                         four-dimensional continuum known as spacetime.<br>
                     </span> <br><br>
-                    <button> <a href="#">Read More...</a></button>
+                    <button class="read-more"> <a href="#">Read More...</a></button>
 
                 </p>
             </div>
         </div>
     </div>
-    <h1 align="center">Blogs</h1>
-    <div class="scroll-card">
+    <div class="bloging-pge">
+        <h1 align="center" class="blog-header">Testimonial</h1>
+        <div class="scroll-card">
 
-        <div class="scroll-img">
-            <br><br>
+            <div class="scroll-img">
+                <br><br>
 
-            <img id="blog1">
-            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
-                explain the
-                situation
-                you're addressing. “...</p>
-            <div class="card-bottom">
-                <p1>John Khan <br></p1><br>
-                <p2>Parent</p2>
+                <img id="blog1">
+                <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                    explain the
+                    situation
+                    you're addressing. “...</p>
+                <div class="card-bottom">
+                    <p1>John Khan <br></p1><br>
+                    <p2>Parent</p2>
+                </div>
+            </div>
+            <div class="scroll-img">
+                <br><br>
+
+                <img id="blog2">
+                <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                    explain the
+                    situation
+                    you're addressing. “...</p>
+                <div class="card-bottom">
+                    <p1>John Khan <br></p1><br>
+                    <p2>Parent</p2>
+                </div>
+            </div>
+            <div class="scroll-img">
+                <br><br>
+
+                <img id="blog3">
+                <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                    explain the
+                    situation
+                    you're addressing. “...</p>
+                <div class="card-bottom">
+                    <p1>John Khan <br></p1><br>
+                    <p2>Parent</p2>
+                </div>
+            </div>
+            <div class="scroll-img">
+                <br><br>
+
+                <img id="blog4">
+                <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
+                    explain the
+                    situation
+                    you're addressing. “...</p>
+                <div class="card-bottom">
+                    <p1>John Khan <br></p1><br>
+                    <p2>Parent</p2>
+                </div>
             </div>
         </div>
-        <div class="scroll-img">
-            <br><br>
-
-            <img id="blog2">
-            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
-                explain the
-                situation
-                you're addressing. “...</p>
-            <div class="card-bottom">
-                <p1>John Khan <br></p1><br>
-                <p2>Parent</p2>
-            </div>
-        </div>
-        <div class="scroll-img">
-            <br><br>
-
-            <img id="blog3">
-            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
-                explain the
-                situation
-                you're addressing. “...</p>
-            <div class="card-bottom">
-                <p1>John Khan <br></p1><br>
-                <p2>Parent</p2>
-            </div>
-        </div>
-        <div class="scroll-img">
-            <br><br>
-
-            <img id="blog4">
-            <p><br>“Be specific when describing the situation. When giving employee feedback, it's important to
-                explain the
-                situation
-                you're addressing. “...</p>
-            <div class="card-bottom">
-                <p1>John Khan <br></p1><br>
-                <p2>Parent</p2>
-            </div>
-        </div>
-
     </div>
-    <div class="norm-text">
-        Scientific research in space can be divided into five general areas: (1) solar and space physics, including
-        study of the
-        magnetic and electromagnetic fields in space and the various energetic particles also present, with particular
-        attention
-        to their interactions with Earth, (2) exploration of the planets, moons, ...
+    <div class="norm-text" align="center">
+        <p><b> Scientific research in space can be divided into five general areas:</b><br><br> (1) solar and space
+            physics,
+            including
+            study of the
+            magnetic and electromagnetic fields in space and the various energetic particles also present, with
+            particular
+            attention
+            to their interactions with Earth,<br> (2) exploration of the planets, moons, ...<br>
+            <button class="read-txt"> <a href="#">Read More...</a></button>
+
+        </p>
     </div>
+    <h1 align="center" class="blog-header">Blogs</h1>
     <div class="card-container">
+
         <div class="card-contain">
             <img id="card1" alt="Read more">
             <div class="card-body">
@@ -261,11 +271,11 @@
         </div>
 
         <div class="navbar-contact">
-            <h1>Home</h1>
-            <h1>News</h1>
-            <h1>About Us</h1>
-            <h1>Contact Us</h1>
-            <h1>Our Team</h1>
+            <h4>Home</h4>
+            <h4>News</h4>
+            <h4>About Us</h4>
+            <h4>Contact Us</h4>
+            <h4>Our Team</h4>
         </div>
 
     </div>
@@ -285,7 +295,7 @@
         //blog profile image 
         "blog1": "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg",
         "blog2": "https://i.pinimg.com/736x/35/a8/30/35a8305bc945ae57a9423e86afa700a0.jpg",
-        "blog3": "https://lh3.googleusercontent.com/proxy/QjbH9xwtypZ0R989qzRUsdpJnX1IFEVGryakBgl4vvuevK5SawS1EDkC8aSOTcxzOdX5z5OWut3OAZW74gIt-zSh2BjIvQ-h7uMjbLwwiXajA56DUchBWCcDoJQkEzsbE4FWXWt0F8Rc_hMy41Fo3mYLUex0OX0TZQ",
+        "blog3": "https://pxbar.com/wp-content/uploads/2023/09/instagram-profile-picture.jpg",
         "blog4": "https://i.pinimg.com/474x/98/51/1e/98511ee98a1930b8938e42caf0904d2d.jpg",
         //Card Images 
         "card1": "https://imgupscaler.com/images/samples/animal-after.webp",
