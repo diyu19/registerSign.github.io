@@ -521,10 +521,14 @@ h2 {
 
   .slideshow-container {
     width: 100%;
+    
+  
   }
   .slidershow{
     flex-direction: column;
     height: 100%;
+  
+     
   }
 .nav-bar{
   flex-direction: column;
@@ -533,14 +537,13 @@ h2 {
   .nav-bar {
     height: 100%;
     width: 0;
-     position: fixed;
+    position: fixed;
     top: 0;
-    left: 0;
-    background-color: #111;
-   
-  
+    left: 0; 
+    background-color: #111; 
     transition: 0.5s;
     padding-top: 60px;
+     z-index: 999;
   }
   .nav-bar h1 a{
      padding: 10px 15px;
@@ -549,6 +552,7 @@ h2 {
     color: white;
     display: block;
     transition: 0.3s;
+    
   }
   .toggle-btn{
   opacity: 1;
@@ -619,6 +623,7 @@ h2 {
     width: 40%;
     height: auto;
     margin-top: 0;
+
   }
 
   .navbar-contact,
